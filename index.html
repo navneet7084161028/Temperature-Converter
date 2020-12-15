@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
+	   	 body{
+	    				background-color:pink;
+	    			}
 
-    	.first{
+    		.first{
 					border-radius: 15px;
 					background-color:  #404040;
 					width: 35%;
@@ -29,29 +32,29 @@
 				}
 				.drop{
 					width: 30%;
-    				height: 35px;
+    					height: 35px;
    					background-color: #008CBA;
-    				border: 2px solid white;
-    				border-radius: 10px;
-    				color: white;
-    				font-size: 20px;
-    				margin-top: 13px;
+    					border: 2px solid white;
+    					border-radius: 10px;
+    					color: white;
+    					font-size: 20px;
+    					margin-top: 13px;
 				}
 		input[type="button"]
 					{
 					width: 85px;
-    				height: 35px;
-    				background-color: teal;
-    				border: 2px solid white;
+    					height: 35px;
+    					background-color: teal;
+    					border: 2px solid white;
    					border-radius: 10px;
    					color: white;
-    				margin-left: 35px;
-    				font-size: 20px;
+    					margin-left: 35px;
+    					font-size: 20px;
 				}
 
     </style>
 </head>
-<body bgcolor="black">
+<body>
 		<div class="first">
 			<h2 style="color: white; text-align: center;">Converter (F to C) and (C to F)</h2>
 			<hr>
@@ -60,7 +63,6 @@
 
 				<label style="color: white; font-size: 20px; letter-spacing: 1px;"><b>Temperature:</b></label><br><br>
 				<input type="text" name="" id="result" placeholder="0"><br><br>
-				
 				<label style="color: white; font-size: 20px;letter-spacing: 1px;"><b>Result:</b></label><br><br>
 				<input type="text" name="" id="result1" placeholder="0"><br>
 				<br>
@@ -70,14 +72,10 @@
 					<option value="1">Celcius</option>
 					<option value="2">Fahrenheit</option>
 				</select>
-				
-				
 				<input type="button" value="click" onclick="display()">	
 			</form>
 			<hr style="margin-top: 43px;">
-			
-				<p style="text-align: center;color: white;">The perfect reckoner needs no counting-slips.....</p>
-			
+			<p style="text-align: center;color: white;">The perfect reckoner needs no counting-slips.....</p>
 		</div>
 </body>
 <script type="text/javascript" src="temp.js"></script>
